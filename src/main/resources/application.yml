@@ -1,0 +1,22 @@
+spring:
+    datasource:
+      url: jdbc:postgres://hboxjfjuvqcuvk:59ce021710ac2036012cd4d8aa4664bc49fa165fa35faf4dc335e4cec6b305df@ec2-54-225-237-64.compute-1.amazonaws.com:5432/d1vsf5llmi4lhn
+      username: hboxjfjuvqcuvk
+      password: 59ce021710ac2036012cd4d8aa4664bc49fa165fa35faf4dc335e4cec6b305df
+      platform: POSTGRESQL
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+
+#spring:
+#    datasource:
+#      url: jdbc:postgresql://localhost:5432/tcc
+#      username: postgres
+#      password: postgres
+#      platform: POSTGRESQL
+#    jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: true
+      
